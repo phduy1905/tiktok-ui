@@ -1,0 +1,28 @@
+// Menu Items
+.content {
+    width: 224px;
+
+
+}
+
+.menu-item {
+    margin-left: 0 !important;
+    justify-content: flex-start !important;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    min-width: 100px;
+    border-radius: 0px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color: var(--white);
+    border: 1px solid transparent;
+    cursor: pointer;
+    user-select: none;
+    cursor: pointer;
+    width: 100%;
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
