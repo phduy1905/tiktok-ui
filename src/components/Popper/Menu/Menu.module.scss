@@ -21,8 +21,37 @@
     user-select: none;
     cursor: pointer;
     width: 100%;
+    line-height: 1.8rem;
 
     &:hover {
         background-color: rgba(22, 24, 35, 0.03);
+    }
+
+    &.separate {
+        border-top: 1px solid rgba(22, 24, 35, 0.12);
+    }
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: -8px;
+    cursor: pointer;
+
+
+    .menu-back {
+        height: 50px;
+        width: 50px;
+        background: none;
+        font-size: 1.6rem;
+        cursor: pointer;
+    }
+
+    .menu-title {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 }
